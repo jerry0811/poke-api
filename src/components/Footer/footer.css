@@ -1,0 +1,40 @@
+.container-footer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+}
+
+.container-footer-header {
+	background: #dd1a1a;
+	height: 60px;
+}
+
+.container-footer-footer {
+	background: #0c0c0c;
+	height: 40px;
+}
+
+.container-footer-circulo1 {
+	background: #212121;
+	border: 12px solid #000000;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 53px;
+	margin-left: 17px;
+	z-index: 9999;
+}
+
+.container-footer-circulo2 {
+	background: #ffffff;
+	border: 5px solid #000000;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 35px;
+}
